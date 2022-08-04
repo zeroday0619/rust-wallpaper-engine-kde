@@ -1,0 +1,16 @@
+[package]
+name = "rust wallpaper engine for kde"
+version = "0.1.0"
+authors = ["zeroday0619 <zeroday0619_dev@outlook.com"]
+edition = "2022"
+repository = "https://github.com/zeroday0619/rust-wallpaper-engine-kde.git"
+license = "MIT, GPL-2.0"
+
+[dependencies]
+qt_core = "0.5.0"
+qt_gui = "0.5.0"
+qt_qml = "0.5.0"
+glsl-lang = "0.3.1"
+spirv-reflect = "0.2.3"
+vulkano = "0.30.0"
+vulkano-shaders = "0.30.0"
